@@ -1124,9 +1124,9 @@
         grid-column: 1/-1;
         height: 295px;
     }
-    .collection-inner-sec {
+    /* .collection-inner-sec {
         grid-column: 1/-1;
-    }
+    } */
     .collection-section2 .design-service {
         gap: 15px;
         place-content: center;
@@ -1459,6 +1459,7 @@
     }
     .collection-inner-sec .row {
         gap: 30px 0;
+        row-gap: 20px;
     }
     .about-main-sec img {
         width: 350px;
