@@ -1538,6 +1538,40 @@
     }
 }
 
+@media (max-width: 768px) {
+    .banner-sec {
+        padding: 750px 20px 20px 20px; /* push text below image */
+        position: relative;
+    }
+
+    .banner-sec::after {
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 700px;
+        background-size: cover;
+        background-position: center;
+        z-index: 0;
+    }
+
+    .banner-left-sec {
+        position: relative;
+        z-index: 1; /* make sure text is above image */
+        text-align: center;
+    }
+
+    .banner-left-sec h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .banner-left-sec p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+
 @media only screen and (max-width:767px) {
     .home-gallery-section .gallery-images-box .gallery-container:nth-child(3) .gallery-item img {
         width: 283px;
