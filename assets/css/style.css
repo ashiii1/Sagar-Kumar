@@ -14,7 +14,7 @@ body {
     line-height: 24px;
     color: var(--text-color);
     font-weight: 400;
-    background: #0d0d0d;
+    background: #ffffff;
     font-family: 'Inter', sans-serif;
 }
 
@@ -122,20 +122,24 @@ body {
 /******HOME PAGE BANNER SECTION******/
 
 .banner-sec {
+    position: relative;
     height: 1035px;
     padding: 304px 0 0;
 }
 
 .banner-sec::after {
+    content: "";
+    position: absolute;
     top: 0;
     right: 0;
-    content: "";
-    width: 1298px;
-    height: 1034px;
-    position: absolute;
-    background: url(../images/banner-img.jpg) no-repeat;
-    background-size: cover;
+    width: 300px;
+    height: 200px; /* height smaller */
+    background: url(../images/eight.jpg) no-repeat right top;
+    background-size: 100% 100%; /* stretch perfectly */
+    pointer-events: none;
+    z-index: 0;
 }
+
 
 .banner-sec h1 span {
     color: var(--button-color);
