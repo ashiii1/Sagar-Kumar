@@ -169,8 +169,6 @@ body {
 
 
 
-
-
 /******HOME PAGE BANNER SECTION******/
 
 /**********/
@@ -1402,38 +1400,8 @@ input:focus-visible+label {
     background: url(../images/features-bg-img.jpg) no-repeat;
 }
 
-/* TEAM PAGE */
 
-/* TEAM PAGE BANNER SECTION STYLE*/
 
-.banner-sec.about-banner.pricing-banner.team-banner {
-    height: auto;
-    padding: 233px 0 140px;
-}
-
-.banner-sec.about-banner.team-banner::before {
-    height: 1580px;
-}
-
-.team-banner .generic-title span {
-    margin-bottom: 25px;
-}
-
-.team-banner .generic-title {
-    margin-bottom: 90px;
-}
-
-.team-banner .row {
-    gap: 53px 0;
-}
-
-.team-banner .member-box figure {
-    margin-bottom: 26px;
-}
-
-.about-banner.pricing-banner.team-banner .social-box {
-    top: 28%;
-}
 
 /* TEAM PAGE BANNER SECTION STYLE*/
 
@@ -1475,6 +1443,21 @@ input:focus-visible+label {
 }
 
 /* SLOUTION BOX */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .Solution-box {
     gap: 30px;
@@ -1622,6 +1605,24 @@ input:focus-visible+label {
 }
 
 /* FAQ SECTION */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* CONTACT PAGE STYLING */
 
@@ -2314,18 +2315,18 @@ input:focus-visible+label {
     background: #050112;
 }
 
-.collection-section2 .design-service .collection-box {
+/* .collection-section2 .design-service .collection-box {
     background: #120e1e;
-}
+} */
 
-.collection-section2 .design-service {
+/* .collection-section2 .design-service {
     gap: 30px;
     display: grid;
     place-content: end;
     grid-template-columns: 47.8% 47.8%;
-}
+} */
 
-.collection-section2-box {
+/* .collection-section2-box {
     gap: 1.17%;
     display: grid;
     grid-template-columns: 32.33% 33% 32.33%;
@@ -2339,17 +2340,7 @@ input:focus-visible+label {
     position: absolute;
 }
 
-.collection-section2-img1::after {
-    left: 0;
-    background: url(../images/collection-box2-img1.jpg) no-repeat center;
-    background-size: cover;
-}
 
-.collection-section2-img2::after {
-    right: 0;
-    background: url(../images/collection-box2-img2.jpg) no-repeat center;
-    background-size: cover;
-}
 
 .collection-section2 .design-service .collection-box:hover {
     background: var(--button-color);
@@ -2357,7 +2348,7 @@ input:focus-visible+label {
 
 .collection-section2 {
     background: #050112;
-}
+} */
 
 .footer-box ul {
     margin-bottom: 0;

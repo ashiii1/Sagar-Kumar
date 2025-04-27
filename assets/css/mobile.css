@@ -207,9 +207,9 @@
         font-size: 36px;
         line-height: 46px;
     }
-    .collection-section2-box {
+    /* .collection-section2-box {
         grid-template-columns: 28% 37.5% 32%;
-    }
+    } */
     .box-video .bg-video,
     .bg-video::after,
     .video-container iframe {
@@ -841,6 +841,7 @@
     .collection-box {
         padding: 26px 12px;
     }
+   
     .about-main-sec img {
         width: 100%;
     }
@@ -1120,17 +1121,17 @@
     .home-footer {
         padding-top: 60px;
     }
-    .collection-section2-img {
+    /* .collection-section2-img {
         grid-column: 1/-1;
         height: 295px;
-    }
+    } */
     /* .collection-inner-sec {
         grid-column: 1/-1;
     } */
-    .collection-section2 .design-service {
+    /* .collection-section2 .design-service {
         gap: 15px;
         place-content: center;
-    }
+    } */
     .index3-banner-sec {
         padding-top: 120px;
         padding-bottom: 130px;
@@ -1457,10 +1458,9 @@
     .collection-section .generic-title {
         margin-bottom: 35px;
     }
-    .collection-inner-sec .row {
-        gap: 30px 0;
-        row-gap: 20px;
-    }
+    /* .collection-inner-sec .row {
+        gap: 10px 0;
+    } */
     .about-main-sec img {
         width: 350px;
         margin-bottom: 30px;
@@ -1557,12 +1557,12 @@
         background-position: center;
         z-index: 0;
     }
-
+/* 
     .banner-left-sec {
         position: relative;
-        z-index: 1; /* make sure text is above image */
+        z-index: 1; 
         text-align: center;
-    }
+    } */
 
     .banner-left-sec h1 {
         font-size: 40px;
@@ -1702,9 +1702,9 @@
     .title-con .generic-title h2 {
         padding: 0 18px;
     }
-    .collection-section2-img {
+    /* .collection-section2-img {
         height: 275px;
-    }
+    } */
     .about-index-img img {
         width: 300px;
     }
@@ -2102,9 +2102,9 @@
     .index3-banner-sec .banner-left-sec p {
         padding: 0 30px;
     }
-    .collection-section2 .design-service {
+    /* .collection-section2 .design-service {
         grid-template-columns: 100%;
-    }
+    } */
     .title-con .generic-title h2 {
         padding: 0;
     }
