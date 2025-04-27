@@ -2604,4 +2604,46 @@ input:focus-visible+label {
     width: 174px;
 }
 
+.footer-inner-section {
+    display: flex;
+    justify-content: center; /* center the items horizontally */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 80px; /* space between Follow and Address */
+    padding: 0 100px; /* leave space at extreme left and right */
+}
+
+.footer-box {
+    flex: 0 0 auto;
+    color: #fff;
+}
+
+.footer-box ul li {
+    margin-bottom: 10px;
+}
+
+.follow-box a, .address-box a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.follow-box i, .address-box i {
+    margin-right: 8px;
+    color: #f9a825; /* golden icon color */
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    color: #999;
+    font-size: 14px;
+}
+
+.footer-main-sec {
+    padding-top: 240px;
+    margin-top: 64px;
+    background-color: #000; /* solid black */
+  
+}
+
+
 /* Loader Styles */
