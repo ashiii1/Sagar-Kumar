@@ -273,7 +273,7 @@ body {
 
 .service-slider-second{
     top: 0;
-    padding-top: 0;
+    padding-top: 100px;
 }
 .service-slider-sec{
     padding-top: 300px;
@@ -1501,7 +1501,7 @@ input:focus-visible+label {
 
 .row-gap {
     width: 100%;
-    height: 5px; /* 5px space between first 4 videos and next 4 videos */
+    height: 64px; /* 5px space between first 4 videos and next 4 videos */
   }
   .collection-box video {
     width: 100%;
@@ -2661,7 +2661,6 @@ input:focus-visible+label {
         transform: scale(1);
     }
 }
-
 .swiper .swiper-wrapper {
     transition-timing-function: linear;
 }
@@ -2671,9 +2670,28 @@ input:focus-visible+label {
     padding-right: 85px;
 }
 
-.swiper-wrapper figure img {
-    width: 174px;
+
+.video-description{
+    color: #000000;
 }
+/* Target Swiper images inside slides and make them large & responsive */
+.logo-slider .swiper-slide figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+
+.logo-slider .swiper-slide img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px; /* You can increase this value for bigger images */
+    object-fit: contain; /* or 'cover' if you want cropping */
+    border-radius: 12px; /* Optional: rounded look */
+}
+
 
 .footer-inner-section {
     display: flex;

@@ -1,10 +1,10 @@
 /* globals */
 
 :root {
-    --primary-color: #ffffff;
-    --secondary-color: #0d0d0d;
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
     --accent: #e36618;
-    --text-color: #a8acb7;
+    --text-color: #000000;
     --button-color: #e65800;
 }
 
@@ -98,11 +98,11 @@ span.error {
 }
 
 .bg-light-black {
-    background: #0d0d0d;
+    background: #ffffff;
 }
 
 .bg-dark-black {
-    background: #000;
+    background: #f4ad8f;
 }
 
 .wrapper {
